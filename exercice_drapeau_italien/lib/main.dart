@@ -55,44 +55,41 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[
-  Row(
-    children: [
-      Expanded(
-        flex: 1,
-        child: Container(
-          // Ca prend un container pour les bordures et les marges
-          color: Colors.green,
-          child: const Padding(
-            // Le padding se fait en encapsulant dans le widget Padding
-            padding: EdgeInsets.all(448.5),
+        children: <Widget>[
+        Expanded(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Expanded(
+                flex: 1,
+                child: Container(
+                  // Ca prend un container pour les bordures et les marges
+                  color: Colors.green,
+                
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                // pas forcement necessaire parce que 1 c'est la valeur par defaut
+                child: Container(
+                
+          color: Colors.white,
+                ),
+              ),
+              Expanded(
+                flex: 1,
+                // pas forcement necessaire parce que 1 c'est la valeur par defaut
+                child: Container(
+                      
+                    color: Colors.red,
+                
+                )
+                
+              )
+            ],
           ),
         ),
-      ),
-      Expanded(
-        flex: 1,
-        // pas forcement necessaire parce que 1 c'est la valeur par defaut
-        child: Container(
-
-color: Colors.white,
-        ),
-      ),
-      Expanded(
-        flex: 1,
-        // pas forcement necessaire parce que 1 c'est la valeur par defaut
-        child: Container(
-            child: const Padding(
-              // Le padding se fait en encapsulant dans le widget Padding
-              padding: EdgeInsets.all(448.5),
-            ),
-            color: Colors.red,
-
-        )
-
-      )
-    ],
-  ),
-],
+      ],
 
       ),
     );
