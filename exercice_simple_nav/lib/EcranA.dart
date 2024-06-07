@@ -18,7 +18,7 @@ class _EcranAState extends State<EcranA> {
       appBar: AppBar(
         title: const Text('Ecran A'),
       ),
-      body:  Text('Tu as navigué vers A avec ${widget.leParametre}'),
+      body:  Text('Tu as navigué vers A avec ${widget.leParametre}') ,
 
     );
   }
