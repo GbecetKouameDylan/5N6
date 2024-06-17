@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exercice_http_simple.iml" filepath="$PROJECT_DIR$/exercice_http_simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/exercice_http_simple_android.iml" filepath="$PROJECT_DIR$/android/exercice_http_simple_android.iml" />
+    </modules>
+  </component>
+</project>
